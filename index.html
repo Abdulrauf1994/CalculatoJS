@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="main">
+        <div class="main-two">
+
+            <div class="input">
+                <input type="text" id="result" class="input-Text">
+            </div>
+
+            <div class="button-main">
+                <button class="button-C" onclick="clearResult('')">CLEAR ALL</button>
+            </div>
+
+            <div class="button-main">
+                <button class="button" onclick="getNumber('7')" id="num">7</button>
+                <button class="button" onclick="getNumber('8')" id="num">8</button>
+                <button class="button" onclick="getNumber('9')" id="num">9</button>
+                <button class="button" onclick="getNumber('*')" id="num">X</button>
+            </div>
+            <div class="button-main">
+                <button class="button" onclick="getNumber('4')" id="num">4</button>
+                <button class="button" onclick="getNumber('5')" id="num">5</button>
+                <button class="button" onclick="getNumber('6')" id="num">6</button>
+                <button class="button" onclick="getNumber('-')" id="num">-</button>
+            </div>
+            <div class="button-main">
+                <button class="button" onclick="getNumber('1')" id="num">1</button>
+                <button class="button" onclick="getNumber('2')" id="num">2</button>
+                <button class="button" onclick="getNumber('3')" id="num">3</button>
+                <button class="button" onclick="getNumber('+')" id="num">+</button>
+            </div>
+
+            <div class="button-main">
+                <button class="button-two" onclick="getNumber('0')" id="num">0</button>
+                <button class="button-two" onclick="answer()">=</button>
+            </div>
+        </div>
+
+    </div>
+    <script src="app.js"></script>
+</body>
+
+</html>
